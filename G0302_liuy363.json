@@ -1,0 +1,44 @@
+{
+    "You": {
+      "Your McMaster Email": ["liuy363@mcmaster.ca" ],
+      "Your First Name": ["Cynthia"],
+      "Your Last Name": ["Liu" ],
+      "Your Group Number": ["03" ]
+    },
+    "First member": {
+      "First member McMaster Email": [ "leej229@mcmaster.ca"],
+      "First member First Name": ["Jiwoo" ],
+      "First member Last Name": ["Lee" ],
+      "First Member Effort Score (1-5)": ["5" ],
+      "First Member Quality of work score (1-5)":[ "5"],
+      "First Member Professionalism score (1-5)":[ "5"],
+      "First Member Comments":["A good leader, push work frequently, good coding professions"]
+    },
+    "Second member": {
+      "Second member McMaster Email": ["lij416@mcmaster.ca"],
+      "Second member First Name": [ "Jennie"],
+      "Second member Last Name": [ "Li"],
+      "Second Member Effort Score (1-5)": ["5"],
+      "Second Member Quality of work score (1-5)":["5"],
+      "Second Member Professionalism score (1-5)":[ "5"],
+      "Second Member Comments":["Responsible teammate, give useful advice, and make good code"]
+    },
+    "Third member": {
+      "Third member McMaster Email": ["ningh4@mcmaster.ca" ],
+      "Third member First Name": ["Zoe" ],
+      "Third member Last Name": [ "Ning"],
+      "Third Member Effort Score (1-5)": ["5" ],
+      "Third Member Quality of work score (1-5)":[ "5"],
+      "Third Member Professionalism score (1-5)":[ "5"],
+      "Third Member Comments":["Doing the UI part with me, the one I communicate most with, good sense of art and understanding of design"]
+    },
+    "Fourth member": {
+      "Fourth member McMaster Email": ["yoonj13@mcmaster.ca" ],
+      "Fourth member First Name": [ "Jeehyun"],
+      "Fourth member Last Name": [ "Yoon"],
+      "Fourth Member Effort Score (1-5)": [ "5"],
+      "Fourth Member Quality of work score (1-5)":[ "5"],
+      "Fourth Member Professionalism score (1-5)":[ "5"],
+      "Fourth Member Comments":["Deep understanding about algorithm, finish work on time and efficiently"]
+    }
+}
