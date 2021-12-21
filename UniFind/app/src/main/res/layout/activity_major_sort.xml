@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MajorSortActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Major"
+        android:textAllCaps="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/majorName"/>
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/search_icon"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="350dp"
+        android:layout_below="@id/toolbar"
+        android:id="@+id/refreshButton"
+        />
+
+    <Spinner
+        android:id="@+id/rankSpinner"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="240dp"
+        android:textSize="10sp"
+        />
+
+    <ExpandableListView
+        android:id="@+id/activity_major_sort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_below="@id/toolbar"
+
+        android:divider="@null"
+
+        android:dividerHeight="1dp"
+
+        >
+
+
+    </ExpandableListView>
+
+    <Switch
+        android:id="@+id/internationalSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="105"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="40dp"
+        android:theme="@style/SwitchTheme"
+        android:layout_marginLeft="10dp"/>
+
+
+    <Switch
+        android:id="@+id/coopSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="coop"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:theme="@style/SwitchTheme"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:text="Tuition Upperbound"
+        android:textSize="10sp"/>
+
+    <EditText
+        android:id="@+id/tuitionTF"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="100dp"
+        android:hint="ex: 25000"
+        android:textSize="15sp"
+        android:inputType="number"
+        android:imeOptions="actionDone"
+        android:imeActionLabel="OK"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="250dp"
+        android:text="Rank Based On:"
+        android:textSize="15sp"/>
+
+
+
+
+</RelativeLayout>

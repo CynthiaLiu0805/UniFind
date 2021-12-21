@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/majorSortActivity">
+    <activity
+        android:id="@+id/linkToOfficalWebsite"
+        android:name="com.example.unifind.LinkToOfficalWebsite"
+        android:label="LinkToOfficalWebsite"
+        tools:layout="@layout/activity_major"/>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.unifind.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/majorSortActivity2"
+        android:name="com.example.unifind.MajorSortActivity"
+        android:label="activity_major_sort"
+        tools:layout="@layout/activity_major_sort" />
+    <activity
+        android:id="@+id/searchMajor"
+        android:name="com.example.unifind.SearchMajor"
+        android:label="SearchMajor"
+        tools:layout="@layout/list_group"/>
+</navigation>
